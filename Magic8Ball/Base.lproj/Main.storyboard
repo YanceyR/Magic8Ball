@@ -39,7 +39,7 @@
                                 <color key="backgroundColor" red="0.00048172863898798823" green="0.33744692802429199" blue="0.64064890146255493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="Recieve Wisdom">
-                                    <color key="titleColor" red="0.055866573136981068" green="0.76323664195904473" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.05586657314" green="0.76323664199999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="askButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgF-4h-cR3"/>

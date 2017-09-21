@@ -24,7 +24,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func askButton(_ sender: UIButton) {
-        print("ask button pressed")
+        shakeBall()
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        shakeBall()
+    }
+    
+    func shakeBall() {
+        ballImageView.image =
+            UIImage.init(named: ballFaces[Int(arc4random_uniform(5))])
     }
     
 }
