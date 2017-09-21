@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ballImageView: UIImageView!
+    let ballFaces = ["ball1", "ball2", "ball3", "ball4", "ball5"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func askButton(_ sender: UIButton) {
+        print("ask button pressed")
+    }
+    
 }
 
